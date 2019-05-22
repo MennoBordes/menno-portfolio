@@ -2,8 +2,8 @@ import React from 'react'
 // import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
-// import RgbHeaderImage from '../../assets/images/portfolio/RGB_kubus/RGB-header.jpg'
-import RgbHeaderImage from '../../assets/images/RGB-header.jpg'
+// import RgbHeaderImage from '../../assets/images/portfolio/RGB_kubus/RGB_header.jpg'
+import RgbHeaderImage from '../../assets/images/RGB_header.jpg'
 
 const rgb_kubus = props => (
   <Layout>
