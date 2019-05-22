@@ -3,7 +3,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 // import RgbHeaderImage from '../../assets/images/portfolio/RGB_kubus/RGB-header.jpg'
-import RgbHeaderImage from '../../assets/images/rgb-header.jpg'
+import RgbHeaderImage from '../../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 
 const RGB_kubus = props => (
   <Layout>
@@ -38,19 +38,7 @@ const RGB_kubus = props => (
             {/* Construction */}
             <div className="col-12">
               <h2 id="content">Bouwproces</h2>
-              <p>
-                Na enkele weken gewacht te hebben kwam de bestelde RGB-Kit
-                binnen. De Kit was opgedeeld over 2 dozen, waarbij in 1 doos de
-                printplaat, RGB-led’s en de plexiglas box zaten. In de andere
-                doos was de voeding, microcontroller en enkele
-                communicatie-kabels geplaatst. Als eerste heb ik alle onderdelen
-                geïnspecteerd te om in te zien of alle benodigde onderdelen
-                geleverd waren. Vervolgens had ik een snelle testopstelling
-                gemaakt waarmee de RGB-led’s getest konden worden. Het testen
-                van de led’s was een vereiste, aangezien het erg vervelend zou
-                zijn als enkele panelen in elkaar waren gezet waarin 1 of
-                meerdere led’s niet (goed) werken.
-              </p>
+              <p>Hier komt een beschrijving van het bouwproces.</p>
             </div>
           </div>
         </div>
