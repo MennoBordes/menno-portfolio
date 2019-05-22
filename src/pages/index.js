@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
+import Artic_webshop from '../assets/images/artic-home.png'
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
@@ -27,12 +28,15 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${pic01})` }}>
+            <article style={{ backgroundImage: `url(${Artic_webshop})` }}>
               <header className="major">
-                <h3>Aliquam</h3>
-                <p>Ipsum dolor sit amet</p>
+                <h3>Kunst webshop</h3>
+                <p>
+                  Een webshop gemaakt met behulp van React, Javascript, HTML en
+                  SQL
+                </p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/portfolio/artic_webshop" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
