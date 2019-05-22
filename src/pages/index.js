@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import Artic_webshop from '../assets/images/artic-home.png'
-import rgbkubus from '../assets/images/rgb_header.jpg'
+import rgbkubus from '../assets/images/rgb-header.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
