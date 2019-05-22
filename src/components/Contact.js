@@ -32,14 +32,14 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <a href="#">information@untitled.tld</a>
+            <span>mennobordes@hetnet.nl</span>
           </div>
         </section>
         <section>
           <div className="contact-method">
             <span className="icon alt fa-phone" />
-            <h3>Phone</h3>
-            <span>(000) 000-0000 x12387</span>
+            <h3>Telefoon</h3>
+            <span>+31 (0)6 58949191</span>
           </div>
         </section>
         {/* <section>
