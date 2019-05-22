@@ -49,7 +49,7 @@ class HomeIndex extends React.Component {
                 <h3>RGB kubus</h3>
                 <p>De eindopdracht van mijn MBO opleiding</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/portfolio/rgb_kubus" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
