@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import Artic_webshop from '../assets/images/artic-home.png'
-import rgb_kubus from '../assets/images/RGB_header.jpg'
+// import rgb_kubus from '../assets/images/RGB_header.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
@@ -44,7 +44,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/over" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${rgb_kubus})` }}>
+            <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>RGB kubus</h3>
                 <p>De eindopdracht van mijn MBO opleiding</p>
