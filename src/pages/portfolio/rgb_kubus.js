@@ -5,7 +5,7 @@ import Layout from '../../components/layout'
 // import RgbHeaderImage from '../../assets/images/portfolio/RGB_kubus/RGB-header.jpg'
 import RgbHeaderImage from '../../assets/images/RGB-header.jpg'
 
-const RGB_kubus = props => (
+const rgb_kubus = props => (
   <Layout>
     <Helmet>
       <title>RGB kubus - M.Bordes</title>
@@ -59,4 +59,4 @@ const RGB_kubus = props => (
   </Layout>
 )
 
-export default RGB_kubus
+export default rgb_kubus
