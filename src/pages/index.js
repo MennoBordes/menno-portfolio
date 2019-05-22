@@ -5,9 +5,8 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import Artic_webshop from '../assets/images/artic-home.png'
-import pic01 from '../assets/images/pic01.jpg'
+import rgb_kubus from '../assets/images/RGB-header.jpg'
 import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
@@ -41,16 +40,16 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>over</h3>
-                <p>feugiat amet tempus</p>
+                <p>About page</p>
               </header>
               <Link to="/over" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic03})` }}>
+            <article style={{ backgroundImage: `url(${rgb_kubus})` }}>
               <header className="major">
-                <h3>Magna</h3>
-                <p>Lorem etiam nullam</p>
+                <h3>RGB kubus</h3>
+                <p>De eindopdracht van mijn MBO opleiding</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/portfolio/RGB_kubus" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
