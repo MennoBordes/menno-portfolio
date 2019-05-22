@@ -37,12 +37,12 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/portfolio/artic_webshop" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
-                <h3>over</h3>
-                <p>About page</p>
+                <h3>Voorraadbeheer</h3>
+                <p>Een voorraadbeheer systeem gemaakt met C# en SQL</p>
               </header>
-              <Link to="/over" className="link primary" />
+              <Link to="/landing" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${rgbkubus})` }}>
               <header className="major">
@@ -51,13 +51,6 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/portfolio/rgb_kubus" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic04})` }}>
-              <header className="major">
-                <h3>Voorraadbeheer</h3>
-                <p>Een voorraadbeheer systeem gemaakt met C# en SQL</p>
-              </header>
-              <Link to="/landing" className="link primary" />
-            </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
                 <h3>Bordspel</h3>
@@ -65,15 +58,22 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/landing" className="link primary" />
             </article>
+            <article style={{ backgroundImage: `url(${pic02})` }}>
+              <header className="major">
+                <h3>over</h3>
+                <p>About page</p>
+              </header>
+              <Link to="/over" className="link primary" />
+            </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
-                <h3>Etiam</h3>
+                <h3>Placeholder</h3>
                 <p>Feugiat amet tempus</p>
               </header>
               <Link to="/landing" className="link primary" />
             </article>
           </section>
-          <section id="two">
+          {/* <section id="two">
             <div className="inner">
               <header className="major">
                 <h2>Massa libero</h2>
@@ -95,7 +95,7 @@ class HomeIndex extends React.Component {
                 </li>
               </ul>
             </div>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )
