@@ -25,7 +25,9 @@ const over = props => (
       <section id="one" className="spotlights">
         <section>
           {/* <Link to="#" className="image"> */}
-          <img src={pers_color} alt="Smoelenfoto" className="image fit" />
+          <span className="image fit">
+            <img src={pers_color} alt="Smoelenfoto" />
+          </span>
           {/* </Link> */}
           <div className="content">
             <div className="inner">
