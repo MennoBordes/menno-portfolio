@@ -7,7 +7,7 @@ const Banner = props => (
         <h1>Menno Bordes</h1>
       </header>
       <div className="content">
-        <p>De website waarop ik mijn portfolio bij houd.</p>
+        <p>De website waarop ik mijn portfolio bijhoud.</p>
         <ul className="actions">
           <li>
             <a href="#one" className="button next scrolly">
