@@ -12,12 +12,17 @@ const Artic_webshop = props => (
       <title>Artic webshop - M.Bordes</title>
       <meta name="descritpion" content="Artic webshop" />
     </Helmet>
+
+    {/* Main */}
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
+          {/* Header */}
           <header className="major">
             <h1>Artic webshop</h1>
           </header>
+
+          {/* Content */}
           <div className="grid-wrapper">
             <div className="col-12">
               <p>

@@ -27,6 +27,7 @@ const Contact = props => (
           </ul>
         </form>
       </section> */}
+
       <section className="split">
         <section>
           <div className="contact-method">

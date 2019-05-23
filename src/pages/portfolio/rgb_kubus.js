@@ -11,10 +11,12 @@ const RGB_kubus = props => (
       <title>RGB kubus - M.Bordes</title>
       <meta name="descritpion" content="RGB kubus" />
     </Helmet>
-    {/* <BannerLanding /> */}
+
+    {/* Main */}
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
+          {/* Header */}
           <header className="major">
             <h1>RGB kubus</h1>
           </header>
