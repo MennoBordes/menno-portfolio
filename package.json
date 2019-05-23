@@ -2,7 +2,7 @@
   "name": "gatsby-starter-forty-v2",
   "description": "Gatsby Starter - Forty V2",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Menno Bordes",
   "dependencies": {
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
