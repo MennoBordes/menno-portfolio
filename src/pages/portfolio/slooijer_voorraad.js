@@ -5,6 +5,8 @@ import Layout from '../../components/layout'
 // Images
 import ImgSlooijerVoorraad from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad.jpg'
 import ImgSlooijerVoorraadDB from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad_Database.jpg'
+import ImgSlooijerArtikelToevoegen from '../../assets/images/portfolio/Slooijer_voorraad/Artikel_Toevoegen.jpg'
+import ImgSlooijerArtikelAanpassen from '../../assets/images/portfolio/Slooijer_voorraad/Artikel_Aanpassen.jpg'
 
 const slooijer_voorraad = props => (
   <Layout>
@@ -47,24 +49,42 @@ const slooijer_voorraad = props => (
                 </ul>
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-5">
               <p>
                 Op het moment dat ik begon met het maken van de applicatie had
                 ik de meeste ervaring met C# als taal, met Windows Forms voor de
                 gebruikers interface en met MS SQL voor de database. Om te
                 beginnen heb ik een interface gemaakt waarop de gebruiker kan
                 filteren op alfabetische volgorde, evenals een zoekfunctie
-                waarmee (delen van) woorden kunnen worden opgezocht.{' '}
-                <span className="image right">
-                  <img src={ImgSlooijerVoorraadDB} alt="Database" />
-                </span>
-                Deze gegevens worden opgehaald uit een MS SQL database, waarna
-                ze worden weergegeven in de applicatie.
+                waarmee (delen van) woorden kunnen worden opgezocht. Deze
+                gegevens worden opgehaald uit een MS SQL database, waarna ze
+                worden weergegeven in de applicatie.
               </p>
             </div>
-            <div className="col-6 image fit">
-              <img src={ImgSlooijerVoorraad} alt="Voorraad scherm" />
-              <sup>Het voorraad scherm.</sup>
+            <div className="col-7">
+              <div className="grid-wrapper">
+                <div className="col-7 image fit">
+                  <img src={ImgSlooijerVoorraad} alt="Voorraad scherm" />
+                  <sup>Het voorraad scherm.</sup>
+                </div>
+                <div className="col-5 image fit">
+                  <img src={ImgSlooijerVoorraadDB} alt="Database" />
+                  <sup>De database.</sup>
+                </div>
+              </div>
+            </div>
+            <div className="col-12">
+              Na het maken van het voorraad scherm ben ik begonnen om interfaces
+              te maken waarmee een nieuw artikel kan worden toegoegd aan de
+              database en een artikel kan worden aagepast.
+            </div>
+            <div className="col-5 image fit">
+              <img src={ImgSlooijerArtikelToevoegen} alt="Artikel toevoegen" />
+              <sup>Het scherm om artikelen toe te voegen.</sup>
+            </div>
+            <div className="col-7 image fit">
+              <img src={ImgSlooijerArtikelAanpassen} alt="Artikel aanpassen" />
+              <sup>Het scherm om artikelen aan te passen.</sup>
             </div>
           </div>
         </div>
