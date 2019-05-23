@@ -10,7 +10,6 @@ import rgbkubus from '../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 import Slooijer_Banner from '../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -70,13 +69,6 @@ class HomeIndex extends React.Component {
                 <p>About page</p>
               </header>
               <Link to="/over" className="link primary" />
-            </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
-              <header className="major">
-                <h3>Placeholder</h3>
-                <p>Feugiat amet tempus</p>
-              </header>
-              <Link to="/landing" className="link primary" />
             </article>
           </section>
           {/* <section id="two">
