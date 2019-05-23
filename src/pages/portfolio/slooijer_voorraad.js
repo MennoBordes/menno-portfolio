@@ -58,6 +58,7 @@ const slooijer_voorraad = props => (
             </div>
             <div className="col-6 image fit">
               <img src={ImgSlooijerVoorraad} alt="Voorraad scherm" />
+              <sup>Het voorraad scherm.</sup>
             </div>
           </div>
         </div>

@@ -36,6 +36,7 @@ const RGB_kubus = props => (
             {/* Header image */}
             <div className="col-6 image fit">
               <img src={RgbHeader} alt="rgb kubus" />
+              <sup>Het eindproduct.</sup>
             </div>
 
             {/* Construction */}

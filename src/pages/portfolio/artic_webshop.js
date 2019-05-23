@@ -47,7 +47,7 @@ const Artic_webshop = props => (
             </div>
             <div className="col-6 image fit">
               <img src={mockup_frontpage} alt="webshop mockup" />
-              <p>De home-pagina volgens de mockup.</p>
+              <sup>De home-pagina volgens de mockup.</sup>
             </div>
             <div className="col-6">
               <p>
@@ -60,7 +60,7 @@ const Artic_webshop = props => (
             </div>
             <div className="col-6 image fit">
               <img src={artic_home} alt="webshop mockup" />
-              <p>De home-pagina op de website.</p>
+              <sup>De home-pagina op de website.</sup>
             </div>
           </div>
         </div>
