@@ -4,10 +4,11 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
+// Images
 import Artic_webshop from '../assets/images/portfolio/Artic_webshop/artic-home.png'
 import rgbkubus from '../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
+import Slooijer_Banner from '../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
 import pic02 from '../assets/images/pic02.jpg'
-import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
@@ -39,12 +40,15 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/portfolio/artic_webshop" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic04})` }}>
+            <article style={{ backgroundImage: `url(${Slooijer_Banner})` }}>
               <header className="major">
                 <h3>Voorraadbeheer</h3>
                 <p>Een voorraadbeheer systeem gemaakt met C# en SQL</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link
+                to="/portfolio/slooijer_voorraad"
+                className="link primary"
+              />
             </article>
             <article style={{ backgroundImage: `url(${rgbkubus})` }}>
               <header className="major">
