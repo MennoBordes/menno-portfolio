@@ -19,6 +19,7 @@ const RGB_kubus = props => (
           {/* Header */}
           <header className="major">
             <h1>RGB kubus</h1>
+            <p>22 mei 2019</p>
           </header>
           <div className="grid-wrapper">
             {/* Intro */}

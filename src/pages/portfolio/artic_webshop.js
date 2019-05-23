@@ -20,6 +20,7 @@ const Artic_webshop = props => (
           {/* Header */}
           <header className="major">
             <h1>Artic webshop</h1>
+            <p>22 mei 2019</p>
           </header>
 
           {/* Content */}

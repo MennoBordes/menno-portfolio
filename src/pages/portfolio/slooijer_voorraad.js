@@ -17,7 +17,8 @@ const slooijer_voorraad = props => (
         <div className="inner">
           {/* Header */}
           <header className="major">
-            <h1>Slooijer voorraadbeheer systeem</h1>
+            <h1>Slooijer voorraadbeheer</h1>
+            <p>23 mei 2019</p>
           </header>
 
           {/* Content */}
