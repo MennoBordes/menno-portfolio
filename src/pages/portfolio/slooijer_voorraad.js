@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 
 // Images
+import ImgSlooijerVoorraad from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad.jpg'
 
 const slooijer_voorraad = props => (
   <Layout>
@@ -29,19 +30,34 @@ const slooijer_voorraad = props => (
                 bouwbedrijf Slooijer. Van hem kreeg ik aan het begin van mijn
                 2de studiejaar als Informaticus te horen dat er binnen Slooijer
                 geen systeem werd gebruikt om de voorraad van materialen en
-                artikelen mee bij te houden. Het leek mij een interessante
-                uitdaging om een applicatie te maken welke:
+                artikelen mee bij te houden.
+                <br /> Het leek mij een interessante uitdaging om een applicatie
+                te maken welke:
+                {/* Lijst */}
                 <ul>
-                  <li>De voorrad van artikelen bijhoudt.</li>
-                  <li>Nieuwe artikelen kan toevoegen aan het systeem.</li>
-                  <li>Artikelen kan afschrijven op lopende projecten.</li>
-                  <li>Artikelen kan afschrijven op naam van medewerkers.</li>
+                  <li>de voorraad van artikelen bijhoudt;</li>
+                  <li>nieuwe artikelen kan toevoegen aan het systeem;</li>
+                  <li>artikelen kan afschrijven op lopende projecten;</li>
+                  <li>artikelen kan afschrijven op naam van medewerkers;</li>
                   <li>
-                    Automatisch een bestelformulier genereert wanneer de
+                    automatisch een bestelformulier genereert wanneer de
                     voorraad lager wordt dan minimaal is ingesteld.
                   </li>
                 </ul>
               </p>
+            </div>
+            <div className="col-6">
+              <p>
+                Op het moment dat ik begon met het maken van de applicatie had
+                ik de meeste ervaring met C# als taal, met Windows Forms voor de
+                gebruikers interface en met MS SQL voor de database. Om te
+                beginnen heb ik een interface gemaakt waarop de gebruiker kan
+                filteren op alfabetische volgorde, evenals een zoekfunctie
+                waarmee (delen van) woorden kunnen worden opgezocht.
+              </p>
+            </div>
+            <div className="col-6 image fit">
+              <img src={ImgSlooijerVoorraad} alt="Voorraad scherm" />
             </div>
           </div>
         </div>
