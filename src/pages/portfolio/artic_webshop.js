@@ -1,8 +1,9 @@
 import React from 'react'
-// import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
-import frontpageMockup from '../../assets/images/portfolio/Artic_webshop/mockup.jpg'
+
+// Images
+import mockup_frontpage from '../../assets/images/portfolio/Artic_webshop/mockup.jpg'
 import artic_home from '../../assets/images/portfolio/Artic_webshop/artic-home.png'
 
 const Artic_webshop = props => (
@@ -39,7 +40,7 @@ const Artic_webshop = props => (
               </p>
             </div>
             <div className="col-6 image fit">
-              <img src={frontpageMockup} alt="webshop mockup" />
+              <img src={mockup_frontpage} alt="webshop mockup" />
               <p>De home-pagina volgens de mockup.</p>
             </div>
             <div className="col-6">

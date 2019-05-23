@@ -1,9 +1,9 @@
 import React from 'react'
-// import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
-// import RgbHeaderImage from '../../assets/images/portfolio/RGB_kubus/RGB-header.jpg'
-import RgbHeaderImage from '../../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
+
+// Images
+import RgbHeader from '../../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 
 const RGB_kubus = props => (
   <Layout>
@@ -32,7 +32,7 @@ const RGB_kubus = props => (
 
             {/* Header image */}
             <div className="col-6 image fit">
-              <img src={RgbHeaderImage} alt="rgb kubus" />
+              <img src={RgbHeader} alt="rgb kubus" />
             </div>
 
             {/* Construction */}
