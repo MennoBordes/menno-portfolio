@@ -42,7 +42,7 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${Slooijer_Banner})` }}>
               <header className="major">
-                <h3>Voorraadbeheer</h3>
+                <h3>Slooijer voorraadbeheer</h3>
                 <p>Een voorraadbeheer systeem gemaakt met C# en SQL</p>
               </header>
               <Link
