@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 
 // Images
+import Slooijer_Banner from '../../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
 import ImgSlooijerVoorraad from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad.jpg'
 import ImgSlooijerVoorraadDB from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad_Database.jpg'
 import ImgSlooijerArtikelToevoegen from '../../assets/images/portfolio/Slooijer_voorraad/Artikel_Toevoegen.jpg'
@@ -17,25 +18,39 @@ const slooijer_voorraad = props => (
 
     {/* Main */}
     <div id="main" className="alt">
-      <section id="one">
+      <section>
         <div className="inner">
           {/* Header */}
           <header className="major">
             <h1>Slooijer voorraadbeheer</h1>
             <p>23 mei 2019</p>
           </header>
-
           {/* Content */}
+          <section className="spotlights">
+            <section>
+              <span className="image">
+                <img src={Slooijer_Banner} alt="Slooijer fabriek" />
+              </span>
+              <div className="content">
+                <div className="inner">
+                  <p>
+                    Mijn vader is timmerman en werkt in de werkplaats van het
+                    bouwbedrijf Slooijer. Van hem kreeg ik aan het begin van
+                    mijn 2de studiejaar als Informaticus te horen dat er binnen
+                    Slooijer geen systeem werd gebruikt om de voorraad van
+                    materialen en artikelen mee bij te houden.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            {/* End of spotlights */}
+          </section>
           <div className="grid-wrapper">
-            <div className="col-12">
+            <section className="col-12">
               <p>
-                Mijn vader is timmerman en werkt in de werkplaats van het
-                bouwbedrijf Slooijer. Van hem kreeg ik aan het begin van mijn
-                2de studiejaar als Informaticus te horen dat er binnen Slooijer
-                geen systeem werd gebruikt om de voorraad van materialen en
-                artikelen mee bij te houden.
-                <br /> Het leek mij een interessante uitdaging om een applicatie
-                te maken welke:
+                Het leek mij een interessante uitdaging om een applicatie te
+                maken welke:
                 {/* Lijst */}
                 <ul>
                   <li>de voorraad van artikelen bijhoudt;</li>
@@ -48,8 +63,8 @@ const slooijer_voorraad = props => (
                   </li>
                 </ul>
               </p>
-            </div>
-            <div className="col-5">
+            </section>
+            <section className="col-5">
               <p>
                 Op het moment dat ik begon met het maken van de applicatie had
                 ik de meeste ervaring met C# als taal, met Windows Forms voor de
@@ -60,7 +75,7 @@ const slooijer_voorraad = props => (
                 gegevens worden opgehaald uit een MS SQL database, waarna ze
                 worden weergegeven in de applicatie.
               </p>
-            </div>
+            </section>
             <div className="col-7">
               <div className="grid-wrapper">
                 <div className="col-7 image fit">
@@ -73,18 +88,30 @@ const slooijer_voorraad = props => (
                 </div>
               </div>
             </div>
-            <div className="col-12">
-              Na het maken van het voorraad scherm ben ik begonnen om interfaces
-              te maken waarmee een nieuw artikel kan worden toegoegd aan de
-              database en een artikel kan worden aagepast.
-            </div>
-            <div className="col-5 image fit">
-              <img src={ImgSlooijerArtikelToevoegen} alt="Artikel toevoegen" />
-              <sup>Het scherm om artikelen toe te voegen.</sup>
-            </div>
-            <div className="col-7 image fit">
-              <img src={ImgSlooijerArtikelAanpassen} alt="Artikel aanpassen" />
-              <sup>Het scherm om artikelen aan te passen.</sup>
+            <section className="col-4">
+              <p>
+                Na het maken van het voorraad scherm ben ik begonnen om
+                interfaces te maken waarmee een nieuw artikel kan worden
+                toegoegd aan de database en een artikel kan worden aagepast.
+              </p>
+            </section>
+            <div className="col-8">
+              <div className="grid-wrapper">
+                <div className="col-5 image fit">
+                  <img
+                    src={ImgSlooijerArtikelToevoegen}
+                    alt="Artikel toevoegen"
+                  />
+                  <sup>Het scherm om artikelen toe te voegen.</sup>
+                </div>
+                <div className="col-7 image fit">
+                  <img
+                    src={ImgSlooijerArtikelAanpassen}
+                    alt="Artikel aanpassen"
+                  />
+                  <sup>Het scherm om artikelen aan te passen.</sup>
+                </div>
+              </div>
             </div>
           </div>
         </div>
