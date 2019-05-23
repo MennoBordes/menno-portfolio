@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 
 // Images
 import ImgSlooijerVoorraad from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad.jpg'
+import ImgSlooijerVoorraadDB from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad_Database.jpg'
 
 const slooijer_voorraad = props => (
   <Layout>
@@ -53,7 +54,12 @@ const slooijer_voorraad = props => (
                 gebruikers interface en met MS SQL voor de database. Om te
                 beginnen heb ik een interface gemaakt waarop de gebruiker kan
                 filteren op alfabetische volgorde, evenals een zoekfunctie
-                waarmee (delen van) woorden kunnen worden opgezocht.
+                waarmee (delen van) woorden kunnen worden opgezocht.{' '}
+                <span className="image right">
+                  <img src={ImgSlooijerVoorraadDB} alt="Database" />
+                </span>
+                Deze gegevens worden opgehaald uit een MS SQL database, waarna
+                ze worden weergegeven in de applicatie.
               </p>
             </div>
             <div className="col-6 image fit">
