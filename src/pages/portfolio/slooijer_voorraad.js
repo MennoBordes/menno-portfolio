@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 
 // Images
 import Slooijer_Banner from '../../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
+import Slooijer_Hoofdscherm from '../../assets/images/portfolio/Slooijer_voorraad/hoofdscherm.jpg'
 import ImgSlooijerVoorraad from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad.jpg'
 import ImgSlooijerVoorraadDB from '../../assets/images/portfolio/Slooijer_voorraad/Voorraad_Database.jpg'
 import ImgSlooijerArtikelToevoegen from '../../assets/images/portfolio/Slooijer_voorraad/Artikel_Toevoegen.jpg'
@@ -19,13 +20,15 @@ const slooijer_voorraad = props => (
     {/* Main */}
     <div id="main" className="alt">
       <section>
+        {/* Content */}
         <div className="inner">
           {/* Header */}
           <header className="major">
             <h1>Slooijer voorraadbeheer</h1>
             <p>23 mei 2019</p>
           </header>
-          {/* Content */}
+
+          {/* Spotlights */}
           <section className="spotlights">
             <section>
               <span className="image">
@@ -43,15 +46,16 @@ const slooijer_voorraad = props => (
                 </div>
               </div>
             </section>
-
             {/* End of spotlights */}
           </section>
+
           <div className="grid-wrapper">
+            {/* Intro */}
             <section className="col-12">
               <p>
                 Het leek mij een interessante uitdaging om een applicatie te
                 maken welke:
-                {/* Lijst */}
+                {/* List */}
                 <ul>
                   <li>de voorraad van artikelen bijhoudt;</li>
                   <li>nieuwe artikelen kan toevoegen aan het systeem;</li>
@@ -64,7 +68,9 @@ const slooijer_voorraad = props => (
                 </ul>
               </p>
             </section>
-            <section className="col-5">
+
+            {/* Tekst */}
+            <div className="col-5">
               <p>
                 Op het moment dat ik begon met het maken van de applicatie had
                 ik de meeste ervaring met C# als taal, met Windows Forms voor de
@@ -75,7 +81,9 @@ const slooijer_voorraad = props => (
                 gegevens worden opgehaald uit een MS SQL database, waarna ze
                 worden weergegeven in de applicatie.
               </p>
-            </section>
+            </div>
+
+            {/* Images */}
             <div className="col-7">
               <div className="grid-wrapper">
                 <div className="col-7 image fit">
@@ -88,30 +96,63 @@ const slooijer_voorraad = props => (
                 </div>
               </div>
             </div>
-            <section className="col-4">
-              <p>
-                Na het maken van het voorraad scherm ben ik begonnen om
-                interfaces te maken waarmee een nieuw artikel kan worden
-                toegoegd aan de database en een artikel kan worden aagepast.
-              </p>
-            </section>
-            <div className="col-8">
-              <div className="grid-wrapper">
-                <div className="col-5 image fit">
-                  <img
-                    src={ImgSlooijerArtikelToevoegen}
-                    alt="Artikel toevoegen"
-                  />
-                  <sup>Het scherm om artikelen toe te voegen.</sup>
-                </div>
-                <div className="col-7 image fit">
-                  <img
-                    src={ImgSlooijerArtikelAanpassen}
-                    alt="Artikel aanpassen"
-                  />
-                  <sup>Het scherm om artikelen aan te passen.</sup>
+
+            {/* Progress */}
+            <section className="col-12 grid-wrapper">
+              {/* Tekst */}
+              <div className="col-4">
+                <p>
+                  Na het maken van het voorraad scherm ben ik begonnen om
+                  interfaces te maken waarmee een nieuw artikel kan worden
+                  toegoegd aan de database en een artikel kan worden aagepast.
+                </p>
+              </div>
+
+              {/* Images */}
+              <div className="col-8">
+                <div className="grid-wrapper">
+                  <div className="col-5 image fit">
+                    <img
+                      src={ImgSlooijerArtikelToevoegen}
+                      alt="Artikel toevoegen"
+                    />
+                    <sup>Het scherm om artikelen toe te voegen.</sup>
+                  </div>
+                  <div className="col-7 image fit">
+                    <img
+                      src={ImgSlooijerArtikelAanpassen}
+                      alt="Artikel aanpassen"
+                    />
+                    <sup>Het scherm om artikelen aan te passen.</sup>
+                  </div>
                 </div>
               </div>
+            </section>
+
+            {/* Tekst */}
+            <div className="col-6">
+              <p>
+                Na het maken van het voorraad scherm en de schermen om artikelen
+                mee toe te voegen of aan te passen, werd het tijd om een
+                hoofdscherm te maken. Dit hoofdscherm is bedoeld als beginpagina
+                van de applicatie, waar alle sub-schermen in terug te vinden
+                zijn.
+              </p>
+            </div>
+
+            {/* Images */}
+            <div className="col-6 image fit">
+              <img src={Slooijer_Hoofdscherm} alt="Hoofdscherm" />
+              <sup>Het hoofdscherm van de applicatie.</sup>
+            </div>
+
+            {/* Tekst */}
+            <div className="col-12">
+              <p>
+                Nu het mogelijk is om artikelen toe te voegen, of te wijzigen,
+                wil ik verder gaan met het afschrijven van artikelen op
+                projecten. Hier ben ik nog mee bezig.
+              </p>
             </div>
           </div>
         </div>
