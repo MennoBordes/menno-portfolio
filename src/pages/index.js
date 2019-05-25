@@ -61,7 +61,7 @@ class HomeIndex extends React.Component {
                 <h3>Bordspel</h3>
                 <p>Een bordspel gemaakt als schoolopdracht</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/portfolio/bordspel" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
