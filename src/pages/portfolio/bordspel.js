@@ -5,6 +5,7 @@ import Layout from '../../components/layout'
 // Images
 import img_bordspel from '../../assets/images/portfolio/Bordspel/Bordspel.jpg'
 import Bordspel_naam from '../../assets/images/portfolio/Bordspel/Bordspel_naam.jpg'
+import Video from '../../components/Video'
 
 const bordspel = props => (
   <Layout>
@@ -61,6 +62,10 @@ const bordspel = props => (
               <header className="major">
                 <h3>Introductie</h3>
               </header>
+              <Video
+                videoSrcURL="https://www.youtube.com/embed/MwgGU0DmAp4"
+                videoTitle="blabla"
+              />
             </div>
 
             {/* Uitleg */}
