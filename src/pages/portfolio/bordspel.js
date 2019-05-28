@@ -64,7 +64,7 @@ const bordspel = props => (
               </header>
               <Video
                 videoSrcURL="https://www.youtube.com/embed/MwgGU0DmAp4"
-                videoTitle="blabla"
+                videoTitle="Bordspel introductie"
               />
             </div>
 
