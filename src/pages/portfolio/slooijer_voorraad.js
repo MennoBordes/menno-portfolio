@@ -39,7 +39,7 @@ const slooijer_voorraad = props => (
                   <p>
                     Mijn vader is timmerman en werkt in de werkplaats van het
                     bouwbedrijf Slooijer. Van hem kreeg ik aan het begin van
-                    mijn 2de studiejaar als Informaticus te horen dat er binnen
+                    mijn 2de studiejaar tot Informaticus te horen dat er binnen
                     Slooijer geen systeem werd gebruikt om de voorraad van
                     materialen en artikelen mee bij te houden.
                   </p>
