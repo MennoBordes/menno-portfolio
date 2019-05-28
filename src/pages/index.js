@@ -5,12 +5,11 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 // Images
-import Artic_webshop from '../assets/images/portfolio/Artic_webshop/artic-home.png'
-import rgbkubus from '../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
+import Artic_Banner from '../assets/images/portfolio/Artic_webshop/artic-home.png'
+import RgbKubus_Banner from '../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 import Slooijer_Banner from '../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
 import Bordspel_Banner from '../assets/images/portfolio/Bordspel/Bordspel.jpg'
 import pic02 from '../assets/images/pic02.jpg'
-import pic05 from '../assets/images/pic05.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -30,7 +29,7 @@ class HomeIndex extends React.Component {
         <div id="main">
           {/* Portfolio */}
           <section id="portfolio" className="tiles">
-            <article style={{ backgroundImage: `url(${Artic_webshop})` }}>
+            <article style={{ backgroundImage: `url(${Artic_Banner})` }}>
               <header className="major">
                 <h3>Kunst webshop</h3>
                 <p>
@@ -50,19 +49,19 @@ class HomeIndex extends React.Component {
                 className="link primary"
               />
             </article>
-            <article style={{ backgroundImage: `url(${rgbkubus})` }}>
-              <header className="major">
-                <h3>RGB kubus</h3>
-                <p>De eindopdracht van mijn MBO opleiding</p>
-              </header>
-              <Link to="/portfolio/rgb_kubus" className="link primary" />
-            </article>
             <article style={{ backgroundImage: `url(${Bordspel_Banner})` }}>
               <header className="major">
                 <h3>Bordspel</h3>
                 <p>Een bordspel gemaakt als schoolopdracht</p>
               </header>
               <Link to="/portfolio/bordspel" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${RgbKubus_Banner})` }}>
+              <header className="major">
+                <h3>RGB kubus</h3>
+                <p>De eindopdracht van mijn MBO opleiding</p>
+              </header>
+              <Link to="/portfolio/rgb_kubus" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
