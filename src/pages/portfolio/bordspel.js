@@ -147,7 +147,7 @@ const bordspel = props => (
               {/* Klei */}
               <div className="col-3">
                 <h3>Klei</h3>
-                <p>Meisje van yde</p>
+                <p>Meisje van Yde</p>
                 <h5>Eigenschappen</h5>
                 <ul>
                   <li>
