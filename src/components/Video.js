@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Video = ({ videoSrcURL, videoTitle, minHeight = 315, ...props }) => (
+const Video = ({ videoSrcURL, videoTitle, minHeight = 500, ...props }) => (
   <div className="video fit">
     <iframe
       height={minHeight}
