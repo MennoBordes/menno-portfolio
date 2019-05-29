@@ -34,7 +34,7 @@ const over = props => (
               <p>
                 Mijn naam is Menno, ik ben{' '}
                 {-birthDate.diff(currentDate, 'years')} jaar oud en volg de
-                opleiding informatica aan de Hogeschool in Rotterdam.
+                opleiding Informatica aan de Hogeschool in Rotterdam.
                 <br />
                 <br />
                 Voordat ik aan deze opleiding was begonnen heb ik eerst de
