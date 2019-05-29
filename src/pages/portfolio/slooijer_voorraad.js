@@ -1,5 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+
+// Components
 import Layout from '../../components/layout'
 
 // Images

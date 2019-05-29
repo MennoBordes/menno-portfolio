@@ -1,11 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+
+// Components
 import Layout from '../../components/layout'
+import Video from '../../components/Video'
 
 // Images
 import img_bordspel from '../../assets/images/portfolio/Bordspel/Bordspel.jpg'
 import Bordspel_naam from '../../assets/images/portfolio/Bordspel/Bordspel_naam.jpg'
-import Video from '../../components/Video'
 
 const bordspel = props => (
   <Layout>

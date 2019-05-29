@@ -2,9 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import moment from 'moment'
 
+// Components
 import Layout from '../components/layout'
-// import PersImage from '../assets/images/OwnImage.jpg'
-// import pers_black from '../assets/images/pers-black.jpg'
+
+// Images
 import pers_color from '../assets/images//personal/pers-color.jpg'
 import BannerLanding from '../components/BannerLanding'
 
