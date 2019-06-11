@@ -163,13 +163,13 @@ const bordspel = props => (
                     </li>
                   </ul>
                   <h5>Bouwkosten</h5>
-                  <ol>
+                  <ul>
                     <li>Verdieping 1 = 1 goud</li>
                     <li>Verdieping 2 = 1 goud &amp; 1 voedsel</li>
                     <li>
                       Verdieping 3 = 1 klei &amp; 1 voedsel &amp; 1 textiel
                     </li>
-                  </ol>
+                  </ul>
                 </div>
 
                 {/* Klei */}
@@ -188,13 +188,13 @@ const bordspel = props => (
                     </li>
                   </ul>
                   <h5>Bouwkosten</h5>
-                  <ol>
+                  <ul>
                     <li>Verdieping 1 = 1 klei</li>
                     <li>Verdieping 2 = 1 klei &amp; 1 textiel</li>
                     <li>
                       Verdieping 3 = 1 goud &amp; 1 voedsel &amp; 1 textiel
                     </li>
-                  </ol>
+                  </ul>
                 </div>
 
                 {/* Voedsel */}
@@ -213,11 +213,11 @@ const bordspel = props => (
                     </li>
                   </ul>
                   <h5>Bouwkosten</h5>
-                  <ol>
+                  <ul>
                     <li>Verdieping 1 = 1 voedsel</li>
                     <li>Verdieping 2 = 1 voedsel &amp; 1 goud</li>
                     <li>Verdieping 3 = 1 goud &amp; 1 klei &amp; 1 textiel</li>
-                  </ol>
+                  </ul>
                 </div>
 
                 {/* Textiel */}
@@ -232,11 +232,11 @@ const bordspel = props => (
                     </li>
                   </ul>
                   <h5>Bouwkosten</h5>
-                  <ol>
+                  <ul>
                     <li>Verdieping 1 = 1 textiel</li>
                     <li>Verdieping 2 = 1 textiel &amp; 1 klei</li>
                     <li>Verdieping 3 = 1 goud &amp; 1 klei &amp; 1 voedsel</li>
-                  </ol>
+                  </ul>
                 </div>
               </div>
             </div>

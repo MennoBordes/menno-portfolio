@@ -51,6 +51,14 @@ class HomeIndex extends React.Component {
                 className="link primary"
               />
             </article>
+            <article style={{ backgroundImage: `url(${pic02})`}}>
+              <header className="major">
+                <h3>Python game</h3>
+                <p>Een spel gemaakt in Python, bestaande uit verschillende minigames</p>
+              </header>
+              <Link to="/portfolio/py_game" className="link primary"/>
+
+            </article>           
             <article style={{ backgroundImage: `url(${Bordspel_Banner})` }}>
               <header className="major">
                 <h3>Bordspel</h3>
