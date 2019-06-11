@@ -7,6 +7,7 @@ import Video from '../../components/Video'
 
 // Images
 import img_bordspel from '../../assets/images/portfolio/Bordspel/Bordspel.jpg'
+import Bordspel_kaarten from '../../assets/images/portfolio/Bordspel/Kaarten.jpg'
 import Bordspel_naam from '../../assets/images/portfolio/Bordspel/Bordspel_naam.jpg'
 
 const bordspel = props => (
@@ -106,6 +107,19 @@ const bordspel = props => (
               </div>
 
               {/* Resources */}
+              <div className="col-6">
+                <header className="major">
+                  <h4>Grondstoffen</h4>
+                </header>
+                <p>
+                  De grondstoffen worden weergegeven door middel van
+                  grondstofkaarten.{' '}
+                </p>
+              </div>
+              <div className="col-6 image left">
+                <img src={Bordspel_kaarten} alt="Grondstoffen" />
+              </div>
+
               {/* Dobbelstenen */}
 
               {/* Vakjes */}
@@ -113,6 +127,12 @@ const bordspel = props => (
               {/* Gebouw bouwen */}
 
               {/* Kanskaarten */}
+              <div className="col-12">
+                <header className="major">
+                  <h4>Kanskaarten</h4>
+                </header>
+                <p />
+              </div>
 
               {/* Helden */}
               <div className="col-12 grid-wrapper" id="helden">
