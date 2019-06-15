@@ -127,12 +127,12 @@ const bordspel = props => (
               {/* Gebouw bouwen */}
 
               {/* Kanskaarten */}
-              <div className="col-12">
+              {/* <div className="col-12">
                 <header className="major">
                   <h4>Kanskaarten</h4>
                 </header>
                 <p />
-              </div>
+              </div> */}
 
               {/* Helden */}
               <div className="col-12 grid-wrapper" id="helden">
