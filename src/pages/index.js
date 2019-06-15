@@ -29,7 +29,7 @@ class HomeIndex extends React.Component {
 
         {/* Main */}
         <div id="main">
-          {/* Portfolio */}
+          {/* Kunst webshop */}
           <section id="portfolio" className="tiles">
             <article style={{ backgroundImage: `url(${Artic_Banner})` }}>
               <header className="major">
@@ -41,6 +41,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/portfolio/artic_webshop" className="link primary" />
             </article>
+            {/* Slooijer voorraadbeheer systeem */}
             <article style={{ backgroundImage: `url(${Slooijer_Banner})` }}>
               <header className="major">
                 <h3>Slooijer voorraadbeheer</h3>
@@ -51,14 +52,18 @@ class HomeIndex extends React.Component {
                 className="link primary"
               />
             </article>
-            <article style={{ backgroundImage: `url(${pic02})`}}>
+            {/* Python game */}
+            {/* <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>Python game</h3>
-                <p>Een spel gemaakt in Python, bestaande uit verschillende minigames</p>
+                <p>
+                  Een spel gemaakt in Python, bestaande uit verschillende
+                  minigames
+                </p>
               </header>
-              <Link to="/portfolio/py_game" className="link primary"/>
-
-            </article>           
+              <Link to="/portfolio/py_game" className="link primary" />
+            </article> */}
+            {/* Bordspel */}
             <article style={{ backgroundImage: `url(${Bordspel_Banner})` }}>
               <header className="major">
                 <h3>Bordspel</h3>
@@ -66,6 +71,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/portfolio/bordspel" className="link primary" />
             </article>
+            {/* RGB kubus */}
             <article style={{ backgroundImage: `url(${RgbKubus_Banner})` }}>
               <header className="major">
                 <h3>RGB kubus</h3>
@@ -73,6 +79,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/portfolio/rgb_kubus" className="link primary" />
             </article>
+            {/* About */}
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>over</h3>
