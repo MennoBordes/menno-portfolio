@@ -17,19 +17,17 @@ const birthDate = moment([1997, 9, 4])
 const over = props => (
   <Layout>
     <Helmet>
-      <title>Artic-webshop - M.Bordes</title>
-      <meta name="descritpion" content="Artic webshop" />
+      <title>About - M.Bordes</title>
+      <meta name="descritpion" content="About" />
     </Helmet>
 
     <BannerLanding />
     <div id="main">
       <section id="one" className="spotlights">
         <section>
-          {/* <Link to="#" className="image"> */}
           <span className="image fit">
             <img src={pers_color} alt="Smoelenfoto" />
           </span>
-          {/* </Link> */}
           <div className="content">
             <div className="inner">
               <p>
