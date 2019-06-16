@@ -35,7 +35,7 @@ const Contact = props => (
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <p className="hiddesn">
+          <p className="hidden">
             <label>
               Don&#39;t fill this out if you are human:{' '}
               <input name="bot-field" />
