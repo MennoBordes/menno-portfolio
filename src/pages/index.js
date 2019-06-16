@@ -82,10 +82,16 @@ class HomeIndex extends React.Component {
             {/* About */}
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>over</h3>
-                <p>About page</p>
+                <h3>Over</h3>
+                {/* <p>About page</p> */}
               </header>
               <Link to="/over" className="link primary" />
+            </article>
+            <article style={{ backgroundImage: `url(${pic02})` }}>
+              <header className="major">
+                <h3>CV</h3>
+              </header>
+              <Link to="/cv" className="link primary" />
             </article>
           </section>
         </div>
