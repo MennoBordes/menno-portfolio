@@ -11,7 +11,8 @@ import Artic_Banner from '../assets/images/portfolio/Artic_webshop/artic-home.pn
 import RgbKubus_Banner from '../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 import Slooijer_Banner from '../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
 import Bordspel_Banner from '../assets/images/portfolio/Bordspel/Bordspel.jpg'
-import pic02 from '../assets/images/pic02.jpg'
+import About_Banner from '../assets/images/about_me.png'
+import CV_Banner from '../assets/images/cv.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -80,14 +81,14 @@ class HomeIndex extends React.Component {
               <Link to="/portfolio/rgb_kubus" className="link primary" />
             </article>
             {/* About */}
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${About_Banner})` }}>
               <header className="major">
                 <h3>Over</h3>
                 {/* <p>About page</p> */}
               </header>
               <Link to="/over" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${CV_Banner})` }}>
               <header className="major">
                 <h3>CV</h3>
               </header>
