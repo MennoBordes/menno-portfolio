@@ -87,7 +87,11 @@ const over = props => (
             <p>
               <strong>
                 Verkoop medewerker |{' '}
-                <a href="https://www.intratuin.nl/winkels/intratuin-zevenhuizen">
+                <a
+                  href="https://www.intratuin.nl/winkels/intratuin-zevenhuizen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Intratuin
                 </a>{' '}
                 Zevenhuizen | september 2017 - mei 2019
@@ -99,7 +103,14 @@ const over = props => (
           <div id="Unica-stage">
             <p>
               <strong>
-                Eindstage MBO | <a href="https://www.unica.nl/">Unica BV</a>{' '}
+                Eindstage MBO |{' '}
+                <a
+                  href="https://www.unica.nl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Unica BV
+                </a>{' '}
                 Bodegraven | februari 2017 - juli 2017
               </strong>
             </p>
@@ -113,7 +124,13 @@ const over = props => (
             <p>
               <strong>
                 Technisch medewerker |{' '}
-                <a href="http://www.trescal.com/nl_BE/">Trescal BV</a>{' '}
+                <a
+                  href="http://www.trescal.com/nl_BE/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Trescal BV
+                </a>{' '}
                 Zoetermeer | 2016 - januari 2017
               </strong>
             </p>
@@ -124,7 +141,13 @@ const over = props => (
             <p>
               <strong>
                 Technisch stagiair |{' '}
-                <a href="http://www.trescal.com/nl_BE/">Trescal BV</a>{' '}
+                <a
+                  href="http://www.trescal.com/nl_BE/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Trescal BV
+                </a>{' '}
                 Zoetermeer | 2015 - 2016
               </strong>
             </p>
@@ -135,7 +158,13 @@ const over = props => (
             <p>
               <strong>
                 Technisch stagiair |{' '}
-                <a href="http://www.dme.nl/">DME Installatiegroep</a>{' '}
+                <a
+                  href="http://www.dme.nl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  DME Installatiegroep
+                </a>{' '}
                 Moerkapelle | 2014 - 2015
               </strong>
             </p>
@@ -146,7 +175,13 @@ const over = props => (
             <p>
               <strong>
                 Tuinbouw medewerker |{' '}
-                <a href="https://www.tastomaten.nl/">Tas tomaten Zevenhuizen</a>{' '}
+                <a
+                  href="https://www.tastomaten.nl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tas tomaten Zevenhuizen
+                </a>{' '}
                 | 2010 - 2015
               </strong>
             </p>
