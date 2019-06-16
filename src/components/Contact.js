@@ -37,7 +37,7 @@ const Contact = props => (
         >
           <p className="hiddesn">
             <label>
-              Don&#39;t' fill this out if you are human:{' '}
+              Don&#39;t fill this out if you are human:{' '}
               <input name="bot-field" />
             </label>
           </p>
