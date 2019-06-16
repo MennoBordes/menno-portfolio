@@ -35,8 +35,26 @@ const Contact = props => (
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input name="name" placeholder="Your Name" type="text" />
-          <button>Send</button>
+          <div className="field half first">
+            <label htmlFor="name">naam</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div className="field half">
+            <label htmlFor="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div className="field">
+            <label htmlFor="message">Bericht</label>
+            <textarea name="message" id="message" rows="6" />
+          </div>
+          <ul className="actions">
+            <li>
+              <input type="submit" value="Send Message" className="special" />
+            </li>
+            <li>
+              <input type="reset" value="Clear" />
+            </li>
+          </ul>
         </form>
       </section>
       <section className="split">
