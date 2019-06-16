@@ -3,10 +3,11 @@ import React from 'react'
 const Contact = props => (
   <section id="contact">
     <div className="inner">
-      {/* <section>
-        <form method="post" action="#">
+      <div />
+      <section>
+        <form name="contact" method="POST" data-netlify="true" action="/">
           <div className="field half first">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">naam</label>
             <input type="text" name="name" id="name" />
           </div>
           <div className="field half">
@@ -14,7 +15,7 @@ const Contact = props => (
             <input type="text" name="email" id="email" />
           </div>
           <div className="field">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Bericht</label>
             <textarea name="message" id="message" rows="6" />
           </div>
           <ul className="actions">
@@ -26,16 +27,21 @@ const Contact = props => (
             </li>
           </ul>
         </form>
-      </section> */}
+      </section>
 
       <section className="split">
         <section>
           <div className="contact-method">
             <span className="icon alt fa-envelope" />
             <h3>Email</h3>
-            <span>mennobordes@hetnet.nl</span>
+            <span>
+              Voor vragen of opmerkingen kunt u contact opnemen met:{' '}
+              <strong>mennobordes@hetnet.nl</strong>
+            </span>
           </div>
         </section>
+      </section>
+      {/* <section className="split">
         <section>
           <div className="contact-method">
             <span className="icon alt fa-phone" />
@@ -43,7 +49,7 @@ const Contact = props => (
             <span>+31 (0)6 58949191</span>
           </div>
         </section>
-        {/* <section>
+        <section>
           <div className="contact-method">
             <span className="icon alt fa-home" />
             <h3>Address</h3>
@@ -55,8 +61,8 @@ const Contact = props => (
               United States of America
             </span>
           </div>
-        </section> */}
-      </section>
+        </section>
+      </section> */}
     </div>
   </section>
 )
