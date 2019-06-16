@@ -27,6 +27,10 @@ const over = props => (
                 <td>Menno Bordes</td>
               </tr>
               <tr>
+                <td>E-mail</td>
+                <td>mennobordes@hetnet.nl</td>
+              </tr>
+              <tr>
                 <td>Geboortedatum</td>
                 <td>04-09-1997</td>
               </tr>
@@ -44,7 +48,7 @@ const over = props => (
                 <td>Huidige opleiding</td>
                 <td>Hogeschool Rotterdam</td>
               </tr>
-              <ul>
+              <ul className="alt">
                 <li>C&#35;</li>
                 <li>Javascript</li>
                 <li>Python</li>
@@ -59,7 +63,7 @@ const over = props => (
                 <td>Huidige opleiding</td>
                 <td>Hogeschool Rotterdam</td>
               </tr>
-              <ul>
+              <ul className="alt">
                 <li>
                   Certificate CCNA part 1 Introduction (introduction to
                   networks)
@@ -180,9 +184,9 @@ const over = props => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Tas tomaten Zevenhuizen
+                  Tas tomaten
                 </a>{' '}
-                | 2010 - 2015
+                Zevenhuizen | 2010 - 2015
               </strong>
             </p>
           </div>
