@@ -79,7 +79,7 @@ const ReturnToEden = props => (
                 <h3>Jupiter</h3>
               </header>
               {/* Uitdaging */}
-              <p>blablabla</p>
+              <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
             {/* Mars */}
             <div className="col-6">
@@ -87,7 +87,7 @@ const ReturnToEden = props => (
                 <h3>Mars</h3>
               </header>
               {/* Uitdaging */}
-              <p>blablabla</p>
+              <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
             {/* Neptunus */}
             <div className="col-6">
@@ -95,7 +95,7 @@ const ReturnToEden = props => (
                 <h3>Neptunus</h3>
               </header>
               {/* Uitdaging */}
-              <p>blablabla</p>
+              <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
             {/* Saturnus */}
             <div className="col-6">
@@ -103,7 +103,7 @@ const ReturnToEden = props => (
                 <h3>Saturnus</h3>
               </header>
               {/* Uitdaging */}
-              <p>blablabla</p>
+              <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
             {/* Uranus */}
             <div className="col-6">
@@ -111,7 +111,7 @@ const ReturnToEden = props => (
                 <h3>Uranus</h3>
               </header>
               {/* Uitdaging */}
-              <p>blablabla</p>
+              <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
             {/* Venus */}
             <div className="col-6">
@@ -119,7 +119,7 @@ const ReturnToEden = props => (
                 <h3>Venus</h3>
               </header>
               {/* Uitdaging */}
-              <p>blablabla</p>
+              <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
           </div>
         </div>
