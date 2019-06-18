@@ -11,8 +11,8 @@ import Artic_Banner from '../assets/images/portfolio/Artic_webshop/artic-home.pn
 import RgbKubus_Banner from '../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 import Slooijer_Banner from '../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
 import Bordspel_Banner from '../assets/images/portfolio/Bordspel/Bordspel.jpg'
-import About_Banner from '../assets/images/about_me.png'
-import CV_Banner from '../assets/images/cv.jpg'
+import About_Banner from '../assets/images/About/about_me.png'
+import CV_Banner from '../assets/images/CV/cv.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -54,7 +54,7 @@ class HomeIndex extends React.Component {
               />
             </article>
             {/* Python game */}
-            {/* <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${CV_Banner})` }}>
               <header className="major">
                 <h3>Python game</h3>
                 <p>
@@ -63,7 +63,7 @@ class HomeIndex extends React.Component {
                 </p>
               </header>
               <Link to="/portfolio/py_game" className="link primary" />
-            </article> */}
+            </article>
             {/* Bordspel */}
             <article style={{ backgroundImage: `url(${Bordspel_Banner})` }}>
               <header className="major">
