@@ -56,13 +56,13 @@ class HomeIndex extends React.Component {
             {/* Python game */}
             <article style={{ backgroundImage: `url(${CV_Banner})` }}>
               <header className="major">
-                <h3>Python game</h3>
+                <h3>Return to Eden</h3>
                 <p>
-                  Een spel gemaakt in Python, bestaande uit verschillende
-                  minigames
+                  Een spel gemaakt in Python en pygame, bestaande uit
+                  verschillende minigames
                 </p>
               </header>
-              <Link to="/portfolio/py_game" className="link primary" />
+              <Link to="/portfolio/return_to_eden" className="link primary" />
             </article>
             {/* Bordspel */}
             <article style={{ backgroundImage: `url(${Bordspel_Banner})` }}>

@@ -6,11 +6,11 @@ import Layout from '../../components/layout'
 
 // Images
 
-const py_game = props => (
+const ReturnToEden = props => (
   <Layout>
     <Helmet>
-      <title>Python game - M.Bordes</title>
-      <meta name="description" content="Python game" />
+      <title>Return to Eden - M.Bordes</title>
+      <meta name="description" content="Return to Eden - Python game" />
     </Helmet>
 
     {/* Main */}
@@ -19,8 +19,8 @@ const py_game = props => (
         <div className="inner">
           {/* Header */}
           <header className="major">
-            <h1>Python game</h1>
-            <p>8 juni 2019</p>
+            <h1>Return to Eden</h1>
+            <p>18 juni 2019</p>
           </header>
 
           {/* Content */}
@@ -106,4 +106,4 @@ const py_game = props => (
   </Layout>
 )
 
-export default py_game
+export default ReturnToEden
