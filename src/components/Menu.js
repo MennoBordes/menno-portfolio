@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-
 const Menu = props => (
   <nav id="menu">
     <div className="inner">
@@ -28,6 +27,7 @@ const Menu = props => (
         </li>
       </ul>
     </div>
+    {/* eslint-disable */}
     <a className="close" onClick={props.onToggleMenu} href="javascript:;">
       Close
     </a>

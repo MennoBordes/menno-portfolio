@@ -8,6 +8,7 @@ const Header = props => (
       <strong>portfolio</strong> <span>door menno bordes</span>
     </Link>
     <nav>
+      {/* eslint-disable */}
       <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
         Menu
       </a>
