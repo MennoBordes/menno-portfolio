@@ -6,6 +6,7 @@ import Layout from '../../components/layout'
 
 // Images
 import RtE_Banner from '../../assets/images/portfolio/Return_to_Eden/Game_Home.png'
+import RtE_Game_Goal from '../../assets/images/portfolio/Return_to_Eden/Game_Goal.png'
 
 const ReturnToEden = props => (
   <Layout>
@@ -55,6 +56,9 @@ const ReturnToEden = props => (
             <div className="col-12">
               {/* Verschillende minigames */}
               <p>
+                <span className="image right">
+                  <img src={RtE_Game_Goal} alt="Game doel" />
+                </span>
                 Het hoofd-thema dat wij hadden bedacht voor het spel, was dat er
                 een intergalactische oorlog had plaatsgevonden. Na afloop van
                 deze oorlog probeerde één ruimteschip terug te gaan naar de
