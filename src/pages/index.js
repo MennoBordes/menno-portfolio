@@ -11,6 +11,7 @@ import Artic_Banner from '../assets/images/portfolio/Artic_webshop/artic-home.pn
 import RgbKubus_Banner from '../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 import Slooijer_Banner from '../assets/images/portfolio/Slooijer_voorraad/Slooijer_Banner.jpg'
 import Bordspel_Banner from '../assets/images/portfolio/Bordspel/Bordspel.jpg'
+import RtE_Banner from '../assets/images/portfolio/Return_to_Eden/Game_Home.png'
 import About_Banner from '../assets/images/About/about_me.png'
 import CV_Banner from '../assets/images/CV/cv.jpg'
 
@@ -54,7 +55,7 @@ class HomeIndex extends React.Component {
               />
             </article>
             {/* Python game */}
-            <article style={{ backgroundImage: `url(${CV_Banner})` }}>
+            <article style={{ backgroundImage: `url(${RtE_Banner})` }}>
               <header className="major">
                 <h3>Return to Eden</h3>
                 <p>
