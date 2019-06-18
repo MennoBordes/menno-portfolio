@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Layout from '../../components/layout'
 
 // Images
+import RtE_Banner from '../../assets/images/portfolio/Return_to_Eden/Game_Home.png'
 
 const ReturnToEden = props => (
   <Layout>
@@ -15,7 +16,7 @@ const ReturnToEden = props => (
 
     {/* Main */}
     <div id="main" className="alt">
-      <section id="one">
+      <section>
         <div className="inner">
           {/* Header */}
           <header className="major">
@@ -23,18 +24,35 @@ const ReturnToEden = props => (
             <p>18 juni 2019</p>
           </header>
 
+          {/* Intro */}
+          <section className="spotlights">
+            <section id="intro">
+              <div className="image">
+                <img src={RtE_Banner} alt="Hoofdscherm" />
+              </div>
+              <div className="content">
+                <div className="inner">
+                  <header className="major">
+                    <h3>Intro</h3>
+                  </header>
+                  <p>
+                    Het tweede project waar ik tijdens mijn eerste HBO
+                    schooljaar aan heb meegewerkt, was het maken van een spel.
+                    De opdracht was om een spel te maken, welke bestond uit
+                    meerdere minigames. Eén minigame per lid van de groep. Onze
+                    groep bestond uit 6 leden, wat betekende dat het spel uit 6
+                    minigames moest gaan bestaan.
+                  </p>
+                </div>
+              </div>
+            </section>
+            {/* End of spotlights */}
+          </section>
+          <br />
+
           {/* Content */}
           <div className="grid-wrapper">
             <div className="col-12">
-              <p>
-                Een van de projecten waar ik tijdens mijn eerste HBO schooljaar
-                aan heb meegewerkt, was het maken van een spel bestaande uit
-                minigames. De opdracht was om een spel te maken, welke bestond
-                uit meerdere minigames. Eén minigame per lid van de groep. Onze
-                groep bestond uit 6 leden, wat betekende dat het spel uit 6
-                minigames moet bestaan.
-              </p>
-
               {/* Verschillende minigames */}
               <p>
                 Het hoofd-thema dat wij hadden bedacht voor het spel, was dat er
