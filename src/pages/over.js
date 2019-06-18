@@ -6,7 +6,7 @@ import moment from 'moment'
 import Layout from '../components/layout'
 
 // Images
-import pers_color from '../assets/images//personal/pers-color.jpg'
+import pers_color from '../assets/images/personal/pers-color.jpg'
 import BannerLanding from '../components/BannerLanding'
 
 // The date of today
