@@ -55,11 +55,16 @@ const ReturnToEden = props => (
             </section>
             {/* End of spotlights */}
           </section>
-          <br />
 
           {/* Verschillende minigames */}
           <div className="grid-wrapper">
+            {/* General game */}
             <div className="col-12 grid-wrapper">
+              <div className="col-12">
+                <header className="major">
+                  <h3>Het spel</h3>
+                </header>
+              </div>
               {/* Verschillende minigames */}
               <p className="col-8">
                 Het hoofd-thema dat wij hadden bedacht voor het spel, was dat er
@@ -78,6 +83,7 @@ const ReturnToEden = props => (
                 <img src={RtE_Game_Goal} alt="Game doel" />
               </div>
             </div>
+
             {/* Jupiter */}
             <div className="col-6">
               <header className="major">
@@ -115,44 +121,44 @@ const ReturnToEden = props => (
                 </div>
               </div>
             </div>
+
             {/* Mars */}
             <div className="col-6">
               <header className="major">
                 <h3>Mars</h3>
               </header>
-              {/* Uitdaging */}
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
+
             {/* Neptunus */}
             <div className="col-6">
               <header className="major">
                 <h3>Neptunus</h3>
               </header>
-              {/* Uitdaging */}
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
+
             {/* Saturnus */}
             <div className="col-6">
               <header className="major">
                 <h3>Saturnus</h3>
               </header>
-              {/* Uitdaging */}
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
+
             {/* Uranus */}
             <div className="col-6">
               <header className="major">
                 <h3>Uranus</h3>
               </header>
-              {/* Uitdaging */}
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
+
             {/* Venus */}
             <div className="col-6">
               <header className="major">
                 <h3>Venus</h3>
               </header>
-              {/* Uitdaging */}
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
             </div>
           </div>
