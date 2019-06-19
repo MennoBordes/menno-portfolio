@@ -8,6 +8,12 @@ import Layout from '../../components/layout'
 import RtE_Banner from '../../assets/images/portfolio/Return_to_Eden/Game_Home.png'
 import RtE_Game_Goal from '../../assets/images/portfolio/Return_to_Eden/Game_Goal.png'
 
+// Images Jupiter
+import RtE_Jupi_Intro from '../../assets/images/portfolio/Return_to_Eden/Jupiter-Ascending/Intro.png'
+import RtE_Jupi_Level from '../../assets/images/portfolio/Return_to_Eden/Jupiter-Ascending/Level.png'
+import RtE_Jupi_Death from '../../assets/images/portfolio/Return_to_Eden/Jupiter-Ascending/Death.png'
+import RtE_Jupi_Finish from '../../assets/images/portfolio/Return_to_Eden/Jupiter-Ascending/Finish.png'
+
 const ReturnToEden = props => (
   <Layout>
     <Helmet>
@@ -51,14 +57,11 @@ const ReturnToEden = props => (
           </section>
           <br />
 
-          {/* Content */}
+          {/* Verschillende minigames */}
           <div className="grid-wrapper">
-            <div className="col-12">
+            <div className="col-12 grid-wrapper">
               {/* Verschillende minigames */}
-              <p>
-                <span className="image right">
-                  <img src={RtE_Game_Goal} alt="Game doel" />
-                </span>
+              <p className="col-8">
                 Het hoofd-thema dat wij hadden bedacht voor het spel, was dat er
                 een intergalactische oorlog had plaatsgevonden. Na afloop van
                 deze oorlog probeerde één ruimteschip terug te gaan naar de
@@ -71,15 +74,46 @@ const ReturnToEden = props => (
                 aarde. Op elke planeet moet een andere opdracht worden
                 uitgevoerd om de brandstof te verkrijgen.
               </p>
+              <div className="col-4 image fit">
+                <img src={RtE_Game_Goal} alt="Game doel" />
+              </div>
             </div>
-
             {/* Jupiter */}
             <div className="col-6">
               <header className="major">
-                <h3>Jupiter</h3>
+                <h3>Jupiter Ascending</h3>
               </header>
-              {/* Uitdaging */}
-              <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
+              {/* Intro */}
+              <div className="grid-wrapper">
+                <div className="image fit col-6">
+                  <img src={RtE_Jupi_Intro} alt="Jupiter Ascending intro" />
+                </div>
+                <p className="col-6">
+                  Om bij Jupiter Ascending de brandstof te verkrijgen moet je
+                  tussen de wolken door, naar een oud-brandstof station om hier
+                  brandstof te verkrijgen.
+                </p>
+                <p className="col-12">
+                  Met de scanner aan boord van je ruimteschip kun je zien dat er
+                  één doorgang door de wolken is, maar dat je snel moet zijn als
+                  je deze wilt halen.
+                </p>
+                <div className="image fit col-6">
+                  <img src={RtE_Jupi_Level} alt="Jupiter Ascending level" />
+                  <p>Het scherm waarop het level te zien is.</p>
+                </div>
+                <div className="image fit col-6">
+                  <img src={RtE_Jupi_Death} alt="Jupiter Ascending death" />
+                  <p>Het scherm wanneer je door de wolken bent ingehaald.</p>
+                </div>
+                <div className="image fit col-12">
+                  <img src={RtE_Jupi_Finish} alt="Jupiter Ascending doel" />
+                  <p>
+                    Het scherm dat je te zien krijgt wanneer je de brandstof
+                    hebt gevonden.
+                  </p>
+                </div>
+              </div>
             </div>
             {/* Mars */}
             <div className="col-6">
