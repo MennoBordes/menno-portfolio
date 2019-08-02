@@ -12,10 +12,10 @@ import Bordspel_naam from '../../assets/images/portfolio/Bordspel/Bordspel_naam.
 
 const bordspel = props => (
   <Layout>
-    <Helmet>
-      <title>bordspel - M.Bordes</title>
-      <meta name="description" content="bordspel" />
-    </Helmet>
+    <Helmet
+      title="Bordspel - M.Bordes"
+      meta={[{ name: 'description', content: 'bordspel' }]}
+    />
 
     {/* Main */}
     <div id="main" className="alt">

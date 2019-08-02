@@ -16,10 +16,10 @@ import RtE_Jupi_Finish from '../../assets/images/portfolio/Return_to_Eden/Jupite
 
 const ReturnToEden = props => (
   <Layout>
-    <Helmet>
-      <title>Return to Eden - M.Bordes</title>
-      <meta name="description" content="Return to Eden - Python game" />
-    </Helmet>
+    <Helmet
+      title="Return to Eden - M.Bordes"
+      meta={[{ name: 'description', content: 'Return to Eden - Python game' }]}
+    />
 
     {/* Main */}
     <div id="main" className="alt">

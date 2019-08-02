@@ -10,10 +10,10 @@ import artic_home from '../../assets/images/portfolio/Artic_webshop/artic-home.p
 
 const Artic_webshop = props => (
   <Layout>
-    <Helmet>
-      <title>Artic webshop - M.Bordes</title>
-      <meta name="descritpion" content="Artic webshop" />
-    </Helmet>
+    <Helmet
+      title="Artic webshop - M.Bordes"
+      meta={[{name:'description', content: 'Artic webshop'}]}
+    />
 
     {/* Main */}
     <div id="main" className="alt">

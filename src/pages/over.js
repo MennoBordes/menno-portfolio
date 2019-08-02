@@ -16,10 +16,15 @@ const birthDate = moment([1997, 9, 4])
 
 const over = props => (
   <Layout>
-    <Helmet>
-      <title>About - M.Bordes</title>
-      <meta name="descritpion" content="About" />
-    </Helmet>
+    <Helmet
+      title="About - M.Bordes"
+      meta={[
+        {
+          name: 'descritpion',
+          content: 'About',
+        },
+      ]}
+    />
 
     <BannerLanding />
     <div id="main">

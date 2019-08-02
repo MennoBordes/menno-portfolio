@@ -7,10 +7,15 @@ import BannerLanding from '../components/BannerLanding'
 
 const over = props => (
   <Layout>
-    <Helmet>
-      <title>CV - M.Bordes</title>
-      <meta name="descritpion" content="CV" />
-    </Helmet>
+    <Helmet
+      title="CV - M.Bordes"
+      meta={[
+        {
+          name: 'descritpion',
+          content: 'CV',
+        },
+      ]}
+    />
 
     <BannerLanding />
     <div id="main" className="alt">

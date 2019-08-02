@@ -14,11 +14,10 @@ import ImgSlooijerArtikelAanpassen from '../../assets/images/portfolio/Slooijer_
 
 const slooijer_voorraad = props => (
   <Layout>
-    <Helmet>
-      <title>Slooijer voorraad - M.Bordes</title>
-      <meta name="description" content="Slooijer voorraad systeem" />
-    </Helmet>
-
+    <Helmet
+      title="Slooijer voorraad - M.Bordes"
+      meta={[{ name: `description`, content: `Slooijer voorraad systeem` }]}
+    />
     {/* Main */}
     <div id="main" className="alt">
       <section>

@@ -7,10 +7,10 @@ import RgbHeader from '../../assets/images/portfolio/RGB_kubus/rgb-header.jpg'
 
 const RGB_kubus = props => (
   <Layout>
-    <Helmet>
-      <title>RGB kubus - M.Bordes</title>
-      <meta name="descritpion" content="RGB kubus" />
-    </Helmet>
+    <Helmet
+      title="RGB kubus - M.Bordes"
+      meta={[{ name: 'descritpion', content: 'RGB kubus' }]}
+    />
 
     {/* Main */}
     <div id="main" className="alt">
