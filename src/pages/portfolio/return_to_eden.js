@@ -123,44 +123,45 @@ const ReturnToEden = props => (
             </div>
 
             {/* Mars */}
-            <div className="col-6">
+            {/* <div className="col-6">
               <header className="major">
                 <h3>Mars</h3>
               </header>
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
-            </div>
+            </div> */}
 
             {/* Neptunus */}
-            <div className="col-6">
+            {/* <div className="col-6">
               <header className="major">
                 <h3>Neptunus</h3>
               </header>
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
-            </div>
+            </div> */}
 
             {/* Saturnus */}
-            <div className="col-6">
+            {/* <div className="col-6">
               <header className="major">
                 <h3>Saturnus</h3>
               </header>
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
-            </div>
+            </div> */}
 
             {/* Uranus */}
-            <div className="col-6">
+            {/* <div className="col-6">
               <header className="major">
                 <h3>Uranus</h3>
               </header>
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
-            </div>
+            </div> */}
 
             {/* Venus */}
-            <div className="col-6">
+            {/* <div className="col-6">
               <header className="major">
                 <h3>Venus</h3>
               </header>
               <p>Er wordt nog aan gewerkt om dit stuk af te maken.</p>
-            </div>
+            </div> */}
+            
           </div>
         </div>
       </section>

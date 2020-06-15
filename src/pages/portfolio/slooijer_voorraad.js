@@ -148,13 +148,13 @@ const slooijer_voorraad = props => (
             </div>
 
             {/* Tekst */}
-            <div className="col-12">
+            {/* <div className="col-12">
               <p>
                 Nu het mogelijk is om artikelen toe te voegen, of te wijzigen,
                 wil ik verder gaan met het afschrijven van artikelen op
                 projecten. Hier ben ik nog mee bezig.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
