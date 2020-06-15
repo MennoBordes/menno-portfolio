@@ -42,7 +42,7 @@ const over = props => (
             </tbody>
           </table>
         </section>
-        {/* Opleidingen */}
+        {/* Education */}
         <section>
           <h2>Opleidingen</h2>
           <table>
@@ -88,9 +88,23 @@ const over = props => (
             </tbody>
           </table>
         </section>
-        {/* Werkervaring */}
-        <section>
+        {/* Job-experience */}
+        <section className="job-experience">
           <h2>Werkervaring</h2>
+          <div id="marketingxpress">
+            <p>
+              <strong>
+                Stagiair developer |{' '}
+                <a href="https://www.marketingxpress.net/home"
+                target="_blank"
+                rel="noopener noreferrer">
+                  MarketingXpress
+                </a>{' '}
+                Ridderkerk | augustus 2019 - februari 2020
+              </strong>
+            </p>
+            <p>Tijdens deze stage heb ik gewerkt aan verbeteringen en uitbreidingen van het MX platform. Dit vond plaats in een .net framework omgeving.</p>
+          </div>
           {/* Intratuin */}
           <div id="Intratuin-werk">
             <p>
